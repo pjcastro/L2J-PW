@@ -1,0 +1,50 @@
+[WARN ] 2022-07-30 21:51:08 IXmlReader: BuyListData: Folder C:\opt\l2j\server\game\data\buylists\custom doesn't exist!
+[WARN ] 2022-07-30 21:51:08 IXmlReader: MultisellData: Folder C:\opt\l2j\server\game\data\multisell\custom doesn't exist!
+[WARN ] 2022-07-30 22:18:27 SpawnTable: Could not store spawn in the DB!
+java.sql.SQLSyntaxErrorException: (conn=2683) Out of range value for column 'npc_templateid' at row 1
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:155) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:274) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeInternal(ClientSidePreparedStatement.java:229) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.ClientSidePreparedStatement.execute(ClientSidePreparedStatement.java:149) ~[mariadb-java-client-2.7.3.jar:?]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java) ~[HikariCP-4.0.3.jar:?]
+	at com.l2jserver.gameserver.datatables.SpawnTable.addNewSpawn(SpawnTable.java:361) [l2jserver.jar:?]
+	at com.l2jserver.datapack.handlers.admincommandhandlers.AdminSpawn.spawnMonster(AdminSpawn.java:343) [?:?]
+	at com.l2jserver.datapack.handlers.admincommandhandlers.AdminSpawn.useAdminCommand(AdminSpawn.java:210) [?:?]
+	at com.l2jserver.gameserver.network.clientpackets.RequestBypassToServer.runImpl(RequestBypassToServer.java:148) [l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.clientpackets.L2GameClientPacket.run(L2GameClientPacket.java:68) [l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.L2GameClient.run(L2GameClient.java:905) [l2jserver.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException: Out of range value for column 'npc_templateid' at row 1
+	at org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException.of(MariaDbSqlException.java:34) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:194) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:177) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:321) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeInternal(ClientSidePreparedStatement.java:220) ~[mariadb-java-client-2.7.3.jar:?]
+	... 12 more
+Caused by: java.sql.SQLException: Out of range value for column 'npc_templateid' at row 1
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readErrorPacket(AbstractQueryProtocol.java:1694) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readPacket(AbstractQueryProtocol.java:1556) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1519) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:318) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeInternal(ClientSidePreparedStatement.java:220) ~[mariadb-java-client-2.7.3.jar:?]
+	... 12 more
+[WARN ] 2022-07-30 23:20:52 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type ENEMY_ONLY used on L2MonsterInstance:Drakos(22815)[268463205] by Xorum [268481332]!
+[WARN ] 2022-07-30 23:20:59 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463191] by Xorum [268481332]!
+[WARN ] 2022-07-30 23:23:26 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463214] by Xorum [268481332]!
+[WARN ] 2022-07-30 23:24:05 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463251] by Xorum [268481332]!
+[WARN ] 2022-07-30 23:24:08 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463248] by Xorum [268481332]!
+[WARN ] 2022-07-30 23:24:09 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463243] by Xorum [268481332]!
+[WARN ] 2022-07-30 23:24:13 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463246] by Xorum [268481332]!
+[WARN ] 2022-07-30 23:24:13 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463250] by Xorum [268481332]!
+[WARN ] 2022-07-30 23:24:15 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463243] by Xorum [268481332]!
+[WARN ] 2022-07-30 23:24:18 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463252] by Xorum [268481332]!
+[WARN ] 2022-07-30 23:24:30 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463254] by Xorum [268481332]!
+[WARN ] 2022-07-30 23:24:33 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463254] by Xorum [268481332]!
+[WARN ] 2022-07-30 23:29:07 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Maluk Princess(22841)[268473971] by Xorum [268481332]!
+[WARN ] 2022-07-30 23:32:06 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Maluk Leader(22838)[268473702] by Xorum [268481332]!
+[WARN ] 2022-07-30 23:32:11 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Maluk Leader(22838)[268473702] by Xorum [268481332]!
+[WARN ] 2022-07-30 23:33:27 LoginServerThread: LoginServer not avaible, trying to reconnect...

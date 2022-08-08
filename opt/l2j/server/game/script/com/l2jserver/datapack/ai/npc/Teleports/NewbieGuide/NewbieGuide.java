@@ -218,7 +218,7 @@ public final class NewbieGuide extends AbstractNpcAI {
 						break;
 					}
 					case 2: {
-						if (talker.getLevel() <= 75) {
+						if (talker.getLevel() <= 85) {
 							if (talker.getLevel() < 6) {
 								showPage(talker, "buffs-low-level.htm");
 							} else if (!talker.isMageClass() && (talker.getClassId().level() < 3)) {
@@ -233,10 +233,10 @@ public final class NewbieGuide extends AbstractNpcAI {
 								if ((talker.getLevel() >= 6) && (talker.getLevel() <= 39)) {
 									npc.doCast(HASTE_FOR_BEGINNERS);
 								}
-								if ((talker.getLevel() >= 40) && (talker.getLevel() <= 75)) {
+								if ((talker.getLevel() >= 40) && (talker.getLevel() <= 85)) {
 									npc.doCast(ADVENTURERS_HASTE);
 								}
-								if ((talker.getLevel() >= 16) && (talker.getLevel() <= 34)) {
+								if ((talker.getLevel() >= 6) && (talker.getLevel() <= 79)) {
 									npc.doCast(LIFE_CUBIC_FOR_BEGINNERS);
 								}
 							} else if (talker.isMageClass() && (talker.getClassId().level() < 3)) {
@@ -248,7 +248,7 @@ public final class NewbieGuide extends AbstractNpcAI {
 								npc.doCast(ACUMEN_FOR_BEGINNERS);
 								npc.doCast(CONCENTRATION_FOR_BEGINNERS);
 								npc.doCast(EMPOWER_FOR_BEGINNERS);
-								if ((talker.getLevel() >= 16) && (talker.getLevel() <= 34)) {
+								if ((talker.getLevel() >= 6) && (talker.getLevel() <= 79)) {
 									npc.doCast(LIFE_CUBIC_FOR_BEGINNERS);
 								}
 							}
@@ -269,7 +269,7 @@ public final class NewbieGuide extends AbstractNpcAI {
 					case 4: {
 						L2Summon summon = talker.getSummon();
 						if ((summon != null) && !summon.isPet()) {
-							if ((talker.getLevel() < 6) || (talker.getLevel() > 75)) {
+							if ((talker.getLevel() < 6) || (talker.getLevel() > 85)) {
 								showPage(talker, "buffs-big-level.htm");
 							} else {
 								npc.setTarget(talker);
@@ -286,7 +286,7 @@ public final class NewbieGuide extends AbstractNpcAI {
 								if ((talker.getLevel() >= 6) && (talker.getLevel() <= 39)) {
 									npc.doCast(HASTE_FOR_BEGINNERS);
 								}
-								if ((talker.getLevel() >= 40) && (talker.getLevel() <= 75)) {
+								if ((talker.getLevel() >= 40) && (talker.getLevel() <= 85)) {
 									npc.doCast(ADVENTURERS_HASTE);
 								}
 							}

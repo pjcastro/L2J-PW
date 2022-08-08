@@ -1,0 +1,58 @@
+[WARN ] 2022-08-07 05:01:21 IPConfigData: Failed to connect to ip1.dynupdate.no-ip.com:8245 please check your internet connection using 127.0.0.1!
+[WARN ] 2022-08-07 05:01:34 IXmlReader: BuyListData: Folder C:\opt\l2j\server\game\data\buylists\custom doesn't exist!
+[WARN ] 2022-08-07 05:01:34 IXmlReader: MultisellData: Folder C:\opt\l2j\server\game\data\multisell\custom doesn't exist!
+[WARN ] 2022-08-07 05:03:55 L2GameClientPacket: Exception processing bypass from player BattleLoli: npc_268479325_Buff 264 265 266 267 268 269 271 274 275 304 305 310 349 363 364 365 1032 1035 1036 1045 1048 1059 1062 1068 1077 1086 1087 1204 1218 1240 1242 1243 1268 1304 1311 1323 1352 1356 1388 1389 1397 4699
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.Map.get(Object)" is null
+	at com.l2jserver.gameserver.model.actor.instance.L2NpcBufferInstance.onBypassFeedback(L2NpcBufferInstance.java:144) ~[l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.clientpackets.RequestBypassToServer.runImpl(RequestBypassToServer.java:166) [l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.clientpackets.L2GameClientPacket.run(L2GameClientPacket.java:68) [l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.L2GameClient.run(L2GameClient.java:905) [l2jserver.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[WARN ] 2022-08-07 05:03:58 L2GameClientPacket: Exception processing bypass from player BattleLoli: npc_268479325_Buff 1003 1005 1006 1007 1008 1009 1229 1249 1251 1252 1253 1260 1282 1308 1309 1310 1362 1363 1364 1365 1390 1391 1414 1461
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.Map.get(Object)" is null
+	at com.l2jserver.gameserver.model.actor.instance.L2NpcBufferInstance.onBypassFeedback(L2NpcBufferInstance.java:144) ~[l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.clientpackets.RequestBypassToServer.runImpl(RequestBypassToServer.java:166) [l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.clientpackets.L2GameClientPacket.run(L2GameClientPacket.java:68) [l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.L2GameClient.run(L2GameClient.java:905) [l2jserver.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[WARN ] 2022-08-07 05:08:43 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type ENEMY_ONLY used on L2MonsterInstance:Drakos Guardian(22824)[268469149] by BattleLoli [268481734]!
+[WARN ] 2022-08-07 05:09:47 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos Guardian(22824)[268469146] by BattleLoli [268481734]!
+[WARN ] 2022-08-07 05:09:57 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos Guardian(22824)[268469148] by BattleLoli [268481734]!
+[WARN ] 2022-08-07 05:09:58 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos Guardian(22824)[268469167] by BattleLoli [268481734]!
+[WARN ] 2022-08-07 05:10:00 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos Guardian(22824)[268469147] by BattleLoli [268481734]!
+[WARN ] 2022-08-07 05:10:02 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos Guardian(22824)[268469164] by BattleLoli [268481734]!
+[WARN ] 2022-08-07 05:11:30 L2GameClientPacket: Exception processing bypass from player BattleLoli: npc_268479325_Buff 264 265 266 267 268 269 271 274 275 304 305 310 349 363 364 365 1032 1035 1036 1045 1048 1059 1062 1068 1077 1086 1087 1204 1218 1240 1242 1243 1268 1304 1311 1323 1352 1356 1388 1389 1397 4699
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.Map.get(Object)" is null
+	at com.l2jserver.gameserver.model.actor.instance.L2NpcBufferInstance.onBypassFeedback(L2NpcBufferInstance.java:144) ~[l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.clientpackets.RequestBypassToServer.runImpl(RequestBypassToServer.java:166) [l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.clientpackets.L2GameClientPacket.run(L2GameClientPacket.java:68) [l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.L2GameClient.run(L2GameClient.java:905) [l2jserver.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[WARN ] 2022-08-07 05:13:14 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos Warrior(22822)[268469036] by BattleLoli [268481734]!
+[WARN ] 2022-08-07 05:13:59 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos Assassin(22823)[268469074] by BattleLoli [268481734]!
+[WARN ] 2022-08-07 05:14:13 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos Assassin(22823)[268481650] by BattleLoli [268481734]!
+[WARN ] 2022-08-07 05:15:09 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos Assassin(22823)[268469075] by BattleLoli [268481734]!
+[WARN ] 2022-08-07 05:15:19 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos Assassin(22823)[268481678] by BattleLoli [268481734]!
+[WARN ] 2022-08-07 05:15:26 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos Assassin(22823)[268469075] by BattleLoli [268481734]!
+[WARN ] 2022-08-07 05:15:40 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos Assassin(22823)[268481690] by BattleLoli [268481734]!
+[WARN ] 2022-08-07 05:15:42 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos Assassin(22823)[268481678] by BattleLoli [268481734]!
+[WARN ] 2022-08-07 05:15:59 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos Assassin(22823)[268481690] by BattleLoli [268481734]!
+[WARN ] 2022-08-07 05:16:00 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos Assassin(22823)[268469075] by BattleLoli [268481734]!
+[WARN ] 2022-08-07 05:16:22 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos Warrior(22822)[268481670] by BattleLoli [268481734]!
+[WARN ] 2022-08-07 05:49:42 L2NpcBufferInstance: NPC Buffer Warning: npcId = 900105 Location: 82272, 148604, -3468 Player: Ishtar has tried to use skill group (1413) not assigned to the NPC Buffer!
+[WARN ] 2022-08-07 05:49:47 L2GameClientPacket: Exception processing bypass from player Ishtar: npc_268479324_Buff 1003 1005 1006 1007 1008 1009 1229 1249 1251 1252 1253 1260 1282 1308 1309 1310 1362 1363 1364 1365 1390 1391 1414 1461
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.Map.get(Object)" is null
+	at com.l2jserver.gameserver.model.actor.instance.L2NpcBufferInstance.onBypassFeedback(L2NpcBufferInstance.java:144) ~[l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.clientpackets.RequestBypassToServer.runImpl(RequestBypassToServer.java:166) [l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.clientpackets.L2GameClientPacket.run(L2GameClientPacket.java:68) [l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.L2GameClient.run(L2GameClient.java:905) [l2jserver.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[WARN ] 2022-08-07 05:49:54 L2NpcBufferInstance: NPC Buffer Warning: npcId = 900105 Location: 82272, 148604, -3468 Player: Ishtar has tried to use skill group (1413) not assigned to the NPC Buffer!

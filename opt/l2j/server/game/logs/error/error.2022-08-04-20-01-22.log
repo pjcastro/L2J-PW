@@ -1,0 +1,4 @@
+[WARN ] 2022-08-04 20:01:35 IXmlReader: BuyListData: Folder C:\opt\l2j\server\game\data\buylists\custom doesn't exist!
+[WARN ] 2022-08-04 20:01:35 IXmlReader: MultisellData: Folder C:\opt\l2j\server\game\data\multisell\custom doesn't exist!
+[WARN ] 2022-08-04 20:21:37 L2GameClientPacket: Character BattleLoli tried to use admin command admin_enchant, without proper access level!
+[WARN ] 2022-08-04 20:21:42 L2GameClientPacket: Character BattleLoli tried to use admin command admin_gmshop, without proper access level!

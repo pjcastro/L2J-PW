@@ -2080,11 +2080,11 @@
 		<race>UNDEAD</race>
 		<sex>MALE</sex>
 		<equipment rhand="13984" /> <!-- rhand: Exclusive to Monsters (Death Slayer_1hs) -->
-		<acquire expRate="42.0155027628587" sp="29772" />
+		<acquire expRate="42.51" sp="29772" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="18734.280667127" hpRegen="190.897045965523" mp="1777.4" mpRegen="3" />
-			<attack physical="10247.9853769394" magical="6998.04554416799" random="30" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
-			<defence physical="566.178304" magical="621.45708" />
+			<vitals hp="5734.28" hpRegen="120.89" mp="1777.4" mpRegen="3" />
+			<attack physical="847.98" magical="698.45" random="30" critical="3" accuracy="5" attackSpeed="223" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="566.17" magical="621.45" />
 			<attribute>
 				<attack type="FIRE" value="200" />
 				<defence fire="200" water="140" wind="170" earth="170" holy="170" dark="170" default="180" />
@@ -2159,14 +2159,14 @@
 		</parameters>
 		<race>DRAGON</race>
 		<sex>MALE</sex>
-		<acquire expRate="81.2104067460317" sp="58196" />
+		<acquire expRate="82" sp="58196" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="18684.918183978" hpRegen="189.293512481432" mp="1812.0" mpRegen="3" />
-			<attack physical="10288.621067445" magical="7025.79444147559" random="10" critical="4" accuracy="5" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
-			<defence physical="572.587568" magical="628.492104" />
+			<vitals hp="8284.91" hpRegen="130.29" mp="1812.0" mpRegen="3" />
+			<attack physical="1458.45" magical="1525.79" random="5" critical="3" accuracy="5" attackSpeed="185" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="622.58" magical="828.49" />
 			<attribute>
 				<attack type="FIRE" value="220" />
-				<defence fire="220" water="150" wind="180" earth="180" holy="180" dark="180" default="190" />
+				<defence fire="220" water="100" wind="160" earth="160" holy="100" dark="180" default="190" />
 			</attribute>
 			<speed>
 				<walk ground="100" />
@@ -2250,9 +2250,9 @@
 		<sex>MALE</sex>
 		<acquire expRate="71.7184531572071" sp="53357" />
 		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
-			<vitals hp="56202.8420013809" hpRegen="190.897045965523" mp="1777.4" mpRegen="3" />
-			<attack physical="10639.9858836169" magical="7860.81599124714" random="10" critical="8" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
-			<defence physical="566.178304" magical="621.45708" />
+			<vitals hp="2602.8420013809" hpRegen="120.897045965523" mp="1777.4" mpRegen="3" />
+			<attack physical="3639.9858836169" magical="3860.81599124714" random="10" critical="3" accuracy="0" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="366.178304" magical="321.45708" />
 			<attribute>
 				<attack type="DARK" value="200" />
 				<defence fire="170" water="170" wind="170" earth="170" holy="140" dark="200" default="180" />

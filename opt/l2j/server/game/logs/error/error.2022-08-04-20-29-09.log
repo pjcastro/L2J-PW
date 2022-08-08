@@ -1,0 +1,61 @@
+[WARN ] 2022-08-04 20:29:22 IXmlReader: BuyListData: Folder C:\opt\l2j\server\game\data\buylists\custom doesn't exist!
+[WARN ] 2022-08-04 20:29:22 IXmlReader: MultisellData: Folder C:\opt\l2j\server\game\data\multisell\custom doesn't exist!
+[WARN ] 2022-08-04 20:30:18 L2GameClientPacket: Exception processing bypass from player BattleLoli: npc_268479329_Buff 264 265 266 267 268 269 271 274 275 304 305 310 349 363 364 365 1032 1035 1036 1045 1048 1059 1062 1068 1077 1086 1087 1204 1218 1240 1242 1243 1268 1304 1311 1323 1352 1356 1388 1389 1397 4699
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.Map.get(Object)" is null
+	at com.l2jserver.gameserver.model.actor.instance.L2NpcBufferInstance.onBypassFeedback(L2NpcBufferInstance.java:144) ~[l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.clientpackets.RequestBypassToServer.runImpl(RequestBypassToServer.java:166) [l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.clientpackets.L2GameClientPacket.run(L2GameClientPacket.java:68) [l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.L2GameClient.run(L2GameClient.java:905) [l2jserver.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[WARN ] 2022-08-04 20:30:23 L2GameClientPacket: Exception processing bypass from player BattleLoli: npc_268479329_Buff 1003 1005 1006 1007 1008 1009 1229 1249 1251 1252 1253 1260 1282 1308 1309 1310 1362 1363 1364 1365 1390 1391 1414 1461
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.Map.get(Object)" is null
+	at com.l2jserver.gameserver.model.actor.instance.L2NpcBufferInstance.onBypassFeedback(L2NpcBufferInstance.java:144) ~[l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.clientpackets.RequestBypassToServer.runImpl(RequestBypassToServer.java:166) [l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.clientpackets.L2GameClientPacket.run(L2GameClientPacket.java:68) [l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.L2GameClient.run(L2GameClient.java:905) [l2jserver.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[WARN ] 2022-08-04 20:44:43 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type ENEMY_ONLY used on L2MonsterInstance:Drakos Guardian(22824)[268469153] by BattleLoli [268481734]!
+[WARN ] 2022-08-04 20:58:08 L2GameClientPacket: Exception processing bypass from player BattleLoli: npc_268479329_Buff 1003 1005 1006 1007 1008 1009 1229 1249 1251 1252 1253 1260 1282 1308 1309 1310 1362 1363 1364 1365 1390 1391 1414 1461
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.Map.get(Object)" is null
+	at com.l2jserver.gameserver.model.actor.instance.L2NpcBufferInstance.onBypassFeedback(L2NpcBufferInstance.java:144) ~[l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.clientpackets.RequestBypassToServer.runImpl(RequestBypassToServer.java:166) [l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.clientpackets.L2GameClientPacket.run(L2GameClientPacket.java:68) [l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.L2GameClient.run(L2GameClient.java:905) [l2jserver.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[WARN ] 2022-08-04 20:58:16 L2GameClientPacket: Exception processing bypass from player BattleLoli: npc_268479329_Buff 264 265 266 267 268 269 271 274 275 304 305 310 349 363 364 365 1032 1035 1036 1045 1048 1059 1062 1068 1077 1086 1087 1204 1218 1240 1242 1243 1268 1304 1311 1323 1352 1356 1388 1389 1397 4699
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.Map.get(Object)" is null
+	at com.l2jserver.gameserver.model.actor.instance.L2NpcBufferInstance.onBypassFeedback(L2NpcBufferInstance.java:144) ~[l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.clientpackets.RequestBypassToServer.runImpl(RequestBypassToServer.java:166) [l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.clientpackets.L2GameClientPacket.run(L2GameClientPacket.java:68) [l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.L2GameClient.run(L2GameClient.java:905) [l2jserver.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[WARN ] 2022-08-04 21:11:57 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463260] by BattleLoli [268481734]!
+[WARN ] 2022-08-04 21:13:07 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Howl(22859)[268463459] by BattleLoli [268481734]!
+[WARN ] 2022-08-04 21:14:12 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463290] by BattleLoli [268481734]!
+[WARN ] 2022-08-04 21:16:44 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268483102] by BattleLoli [268481734]!
+[WARN ] 2022-08-04 21:17:02 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268483102] by BattleLoli [268481734]!
+[WARN ] 2022-08-04 21:17:04 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463305] by BattleLoli [268481734]!
+[WARN ] 2022-08-04 21:17:06 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463305] by BattleLoli [268481734]!
+[WARN ] 2022-08-04 21:17:07 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463299] by BattleLoli [268481734]!
+[WARN ] 2022-08-04 21:17:09 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463305] by BattleLoli [268481734]!
+[WARN ] 2022-08-04 21:19:24 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268483085] by BattleLoli [268481734]!
+[WARN ] 2022-08-04 21:19:42 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268483062] by BattleLoli [268481734]!
+[WARN ] 2022-08-04 21:20:03 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268483085] by BattleLoli [268481734]!
+[WARN ] 2022-08-04 21:20:05 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268483085] by BattleLoli [268481734]!
+[WARN ] 2022-08-04 21:20:16 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268483085] by BattleLoli [268481734]!
+[WARN ] 2022-08-04 21:23:37 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Gem Dragon(22830)[268463342] by BattleLoli [268481734]!
+[WARN ] 2022-08-04 21:26:40 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463276] by BattleLoli [268481734]!
+[WARN ] 2022-08-04 21:26:41 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463276] by BattleLoli [268481734]!
+[WARN ] 2022-08-04 21:26:58 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463272] by BattleLoli [268481734]!
+[WARN ] 2022-08-04 21:27:24 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463272] by BattleLoli [268481734]!
+[WARN ] 2022-08-04 21:27:36 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463255] by BattleLoli [268481734]!
+[WARN ] 2022-08-04 21:28:01 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463278] by BattleLoli [268481734]!
+[WARN ] 2022-08-04 21:28:32 TargetType: Outdated Skill Expose Weak Point(5565,1) with target type TARGET used on L2MonsterInstance:Drakos(22815)[268463278] by BattleLoli [268481734]!

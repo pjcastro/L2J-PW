@@ -1,0 +1,37 @@
+[WARN ] 2022-07-31 04:19:19 IXmlReader: BuyListData: Folder C:\opt\l2j\server\game\data\buylists\custom doesn't exist!
+[WARN ] 2022-07-31 04:19:19 IXmlReader: MultisellData: Folder C:\opt\l2j\server\game\data\multisell\custom doesn't exist!
+[WARN ] 2022-07-31 04:23:34 SpawnTable: Could not store spawn in the DB!
+java.sql.SQLSyntaxErrorException: (conn=5652) Out of range value for column 'npc_templateid' at row 1
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.internal.util.exceptions.ExceptionFactory.create(ExceptionFactory.java:155) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.MariaDbStatement.executeExceptionEpilogue(MariaDbStatement.java:274) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeInternal(ClientSidePreparedStatement.java:229) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.ClientSidePreparedStatement.execute(ClientSidePreparedStatement.java:149) ~[mariadb-java-client-2.7.3.jar:?]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java) ~[HikariCP-4.0.3.jar:?]
+	at com.l2jserver.gameserver.datatables.SpawnTable.addNewSpawn(SpawnTable.java:361) [l2jserver.jar:?]
+	at com.l2jserver.datapack.handlers.admincommandhandlers.AdminSpawn.spawnMonster(AdminSpawn.java:343) [?:?]
+	at com.l2jserver.datapack.handlers.admincommandhandlers.AdminSpawn.useAdminCommand(AdminSpawn.java:210) [?:?]
+	at com.l2jserver.gameserver.network.clientpackets.RequestBypassToServer.runImpl(RequestBypassToServer.java:148) [l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.clientpackets.L2GameClientPacket.run(L2GameClientPacket.java:68) [l2jserver.jar:?]
+	at com.l2jserver.gameserver.network.L2GameClient.run(L2GameClient.java:905) [l2jserver.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException: Out of range value for column 'npc_templateid' at row 1
+	at org.mariadb.jdbc.internal.util.exceptions.MariaDbSqlException.of(MariaDbSqlException.java:34) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:194) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.exceptionWithQuery(AbstractQueryProtocol.java:177) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:321) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeInternal(ClientSidePreparedStatement.java:220) ~[mariadb-java-client-2.7.3.jar:?]
+	... 12 more
+Caused by: java.sql.SQLException: Out of range value for column 'npc_templateid' at row 1
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readErrorPacket(AbstractQueryProtocol.java:1694) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.readPacket(AbstractQueryProtocol.java:1556) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.getResult(AbstractQueryProtocol.java:1519) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.internal.protocol.AbstractQueryProtocol.executeQuery(AbstractQueryProtocol.java:318) ~[mariadb-java-client-2.7.3.jar:?]
+	at org.mariadb.jdbc.ClientSidePreparedStatement.executeInternal(ClientSidePreparedStatement.java:220) ~[mariadb-java-client-2.7.3.jar:?]
+	... 12 more
+[WARN ] 2022-07-31 04:24:03 L2NpcBufferInstance: NPC Buffer Warning: npcId = 1000003 Location: 82295, 148608, -3465 Player: Adar has tried to use skill group (1087) not assigned to the NPC Buffer!
+[WARN ] 2022-07-31 04:26:18 L2NpcBufferInstance: NPC Buffer Warning: npcId = 1000003 Location: 82295, 148608, -3465 Player: Margarito has tried to use skill group (1087) not assigned to the NPC Buffer!
+[WARN ] 2022-07-31 04:26:39 L2NpcBufferInstance: NPC Buffer Warning: npcId = 1000003 Location: 82295, 148608, -3465 Player: Margarito has tried to use skill group (1087) not assigned to the NPC Buffer!

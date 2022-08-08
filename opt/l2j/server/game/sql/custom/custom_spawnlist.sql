@@ -13,3 +13,6 @@ CREATE TABLE IF NOT EXISTS `custom_spawnlist` (
   `loc_id` int(9) NOT NULL DEFAULT '0',
   `periodOfDay` tinyint(1) unsigned NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT IGNORE INTO `custom_spawnlist` VALUES
+("unset", 1, 900105, 82272, 148604, -3468, 0, 0, 62980, 60, 0, 0, 0);
