@@ -1,5 +1,0 @@
-[WARN ] 2022-07-30 20:35:52 IXmlReader: BuyListData: Folder C:\opt\l2j\server\game\data\buylists\custom doesn't exist!
-[WARN ] 2022-07-30 20:35:53 IXmlReader: MultisellData: Folder C:\opt\l2j\server\game\data\multisell\custom doesn't exist!
-[WARN ] 2022-07-30 21:02:39 L2GameClientPacket: Adar [268482714] requested not registered admin command 'admin_polymorph_menu'
-[WARN ] 2022-07-30 21:05:46 L2GameClientPacket: Adar [268482714] requested not registered admin command 'admin_polymorph_menu'
-[WARN ] 2022-07-30 21:08:08 L2GameClientPacket: Adar [268482714] requested not registered admin command 'admin_polymorph_menu'
